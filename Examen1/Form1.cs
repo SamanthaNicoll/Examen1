@@ -14,7 +14,7 @@ namespace Examen1
     {
         public Form1()
         {
-            
+            //mj
             InitializeComponent();
         }
     }
