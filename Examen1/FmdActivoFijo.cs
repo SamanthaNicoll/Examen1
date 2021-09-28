@@ -16,6 +16,10 @@ namespace Examen1
         {
             InitializeComponent();
         }
+        public void LineaRecta()
+        {
+
+        }
 
         private void TextBox2_TextChanged(object sender, EventArgs e)
         {
@@ -29,10 +33,15 @@ namespace Examen1
 
         private void Aceptar (object sender, EventArgs e)
         {
-
+        
         }
 
         private void Cancelar(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GroupBox1_Enter(object sender, EventArgs e)
         {
 
         }

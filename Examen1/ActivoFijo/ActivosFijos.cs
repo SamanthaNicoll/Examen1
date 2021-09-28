@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace Examen1.ActivoFijo
 {
-   public class ActivosFijos
+    [JsonObject(MemberSerialization.OptIn)]
+    public class ActivosFijos
     {
+        [JsonProperty]
         public int Id { get; set; }
         public string CodigoActivo { get; set; }
         public string NombreActivo { get; set; }
