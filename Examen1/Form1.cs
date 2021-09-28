@@ -14,6 +14,7 @@ namespace Examen1
     {
         public Form1()
         {
+            
             InitializeComponent();
         }
     }
